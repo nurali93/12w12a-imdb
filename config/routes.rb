@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   devise_for :user
 
   resources :movies do
+  	collection do
+  		get 'search'
+  	end
   	resources :reviews, except: [:show,]
   end
 
