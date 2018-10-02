@@ -1,24 +1,10 @@
-# README
+# Advent Ruby on Rails Tutorial: Movie Review App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Part of a 12 weeks 12 app projects by [Mackenzie Child](https://github.com/mackenziechild/movie_review)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Installation
+- `git clone https://github.com/nurali93/12w12a-imdb.git`
+- `bundle intall`
+- `rake db:migrate`
+- `rails s`
+- it will automatically run on `localhost:3000`
